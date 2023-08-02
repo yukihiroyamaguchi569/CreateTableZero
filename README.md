@@ -12,7 +12,7 @@ CreateTableZero.Rをワーキングディレクトリに置いてください
 使用するスクリプトからSource("CreateTableZero.R")を実行すると、上記のファイルが読み込まれ、CreateTableZeroが使えるようになります
 
 ## irisを使用してTableOneを作成する
-irisのデータを使って、TableOneを作ってみましょう [DEMO_CreateTableZero](DEMO_CreateTableZero.R)
+irisのデータを使って、TableOneを作ってみましょう [Demo_CreateTableZero](Demo_CreateTableZero.R)
 
 CreateTableZero(iris)　を実行するとShinyが立ち上がります。
 
