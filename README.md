@@ -1,8 +1,9 @@
 # CreateTableZero
 CreateTableOneの引数を作成するShiny Appです
 
-RのTableOne packageはとても便利なpackageですが、CreateTableOne()を使用する際に、引数を指定するのがやや面倒です。
-そこで、データフレームを指定したら変数を列挙してくれて、ポチポチクリックで引数を作れるShiny appを作ってみました。
+RのTableOne package(https://cran.r-project.org/web/packages/tableone/index.html) はとても便利なpackageですが、CreateTableOne()を使用する際に、引数を指定するのがやや面倒です。
+
+そこで、データフレームを指定したら変数を列挙してくれて、ポチポチクリックして引数を作れるShiny appを作ってみました。
 
 ## 準備
 CreateTableZero.Rをワーキングディレクトリに置いてください
