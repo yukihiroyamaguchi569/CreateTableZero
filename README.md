@@ -15,13 +15,19 @@ irisのデータを使って、TableOneを作ってみましょう
 
 CreateTableZero(iris)　を実行するとShinyが立ち上がります。
 
-![Zero1](zero1.png)
+<table><tr><td>
+  <img src= zero1.png width = 70%>
+</td></tr></table>
+
 
 左側のカラムの必要な変数をポチポチクリックすると、右上に引数が作成されていきます。
 
 「クリップボードにコピー」ボタンを押すとコードがコピーされます。
 
-![Zero1](zero2.png)
+<table><tr><td>
+  <img src= zero2.png width = 70%>
+</td></tr></table>
 
 Shiny appを閉じて、コードに戻り、ペーストするとCreateTableOneが出来上がります
+
 Shinyを閉じないとコードが実行できないので、ご注意ください。
