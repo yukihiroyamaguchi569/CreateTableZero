@@ -3,6 +3,11 @@ CreateTableOneの引数を作成するShiny Appです
 
 RのTableOne package(https://cran.r-project.org/web/packages/tableone/index.html) はとても便利なpackageですが、CreateTableOne()を使用する際に、引数を指定するのがやや面倒です。
 
+<table><tr><td>
+  <img src= image/tableone.png>
+</td></tr></table>
+使用する変数を全部挙げて、""でくくらないといけません。変数が多いと時間がかかりますし、よく、変数名を間違えたりします
+
 そこで、データフレームを指定したら変数を列挙してくれて、ポチポチクリックして引数を作れるShiny appを作ってみました。
 
 ## 準備
