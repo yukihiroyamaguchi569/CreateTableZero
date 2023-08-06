@@ -10,8 +10,10 @@ CreateTableZero <- function(dataframe) {
           
           sidebarLayout(
                sidebarPanel(
-                    checkboxGroupInput("vars", "変数を選択:", choices = names(dataframe)), # チェックボックスで変数を選択
-                    checkboxGroupInput("factorVars", "カテゴリ変数を選択:", choices = names(dataframe)), # チェックボックスでカテゴリ変数を選択
+                    fluidRow(
+                         column(6, checkboxGroupInput("vars", "変数を選択:", choices = names(dataframe))), # チェックボックスで変数を選択
+                         column(6, checkboxGroupInput("factorVars", "カテゴリ変数を選択:", choices = names(dataframe))) # チェックボックスでカテゴリ変数を選択
+                    ),
                     selectInput("strata", "Strata変数を選択:", c("層別化しない", names(dataframe))), # 「層別化しない」を追加
                     radioButtons("test", "検定を行う:", choices = c("TRUE", "FALSE")), # Testの選択
                ),
